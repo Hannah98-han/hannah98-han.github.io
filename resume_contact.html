@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Hannah's Resume</title>
+	<link rel="stylesheet" href="stylesheet resume.css">
+<style>
+	.topnav {
+ 		overflow: hidden;
+ 		background-color: lightgray;
+ 		position: fixed;
+  		top: 0;
+  		width: 120%;
+	}
+	.topnav a {
+  		float: left;
+  		color: black;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+  		font-size: 17px;
+		display:block;
+	}
+	.topnav a:hover {
+ 		background-color: #DC7633;
+  		color: green;
+	}
+	.topnav a.active {
+ 		background-color: #DC7633;
+  		color: white;
+	}
+	.main {
+		margin-top: 30px;
+	}
+	p{
+		text-align:center;
+	}
+	form{
+		text-align:center;
+	}
+</style>
+</head>
+<body>
+<div class="navbar">
+     	<a href="index.html" class="w3-bar-item w3-button">Home</a>
+	<a href="resume_about me.html" class="w3-bar-item w3-button">About</a>
+ 	<a href="resume_education.html" class="w3-bar-item w3-button">Education</a>
+	<a href="resume_skill and experiences1.html" class="w3-bar-item w3-button">Skill and Experiences</a>
+      <a href="resume_contact.html" class="w3-bar-item w3-button">Contact</a>
+</div>
+
+<h1>Contact</h1>
+<div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Kota Samarahan, MY</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +011 14090286</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: tut.sakura98@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  </div>
+</body>
+</html>

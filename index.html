@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>Hannah's Resume</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="stylesheet resume.css">
+<style>
+	*{
+		box-sizing:border-box;
+	}
+	
+	body{
+		font-family:Arial,Helvetica,san-serif;
+	}
+	h2{
+		text-align:left;
+	}
+	h1{		
+		text-align:center;
+	}
+	header{
+		height="100%" width="width-device";
+	}
+	.topnav {
+ 		overflow: hidden;
+ 		background-color: lightgray;
+ 		position: fixed;
+  		top: 0;
+  		width: 120%;
+	}
+	.topnav a {
+  		float: left;
+  		color: black;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+  		font-size: 17px;
+		display:block;
+	}
+	.topnav a:hover {
+ 		background-color: #DC7633;
+  		color: green;
+	}
+	.topnav a.active {
+ 		background-color: #DC7633;
+  		color: white;
+	}
+	.main {
+		margin-top: 30px;
+	}
+	article{
+		float:left;
+		width:70%;
+		height:450px;
+		background-color:violet;
+		padding:20px;
+		font-size:180%;
+		text-align:center;
+		color:black;
+		text-align:justify;
+	}
+	section:after{
+		content:"";
+		display:table;
+		clear:both;
+	}
+	aside{
+		background-color:slateblue;
+		color:white;
+		width:30%;
+		height:450px;
+		float:left;
+		font-size:150%;
+	}
+	@media(max-width:600px){
+		nav,article,aside{
+			width:device-width;
+			height:auto;
+		}
+	}	
+	footer{
+		background-color:black;
+		padding:10px;
+		text-align:center;
+		color:goldenrod;
+	}
+	
+</style>
+<body>
+<div class="navbar">
+     	<a href="index.html" class="w3-bar-item w3-button">Home</a>
+	<a href="resume_about me.html" class="w3-bar-item w3-button">About</a>
+ 	<a href="resume_education.html" class="w3-bar-item w3-button">Education</a>
+	<a href="resume_skill and experiences.html" class="w3-bar-item w3-button">Skill and Experiences</a>
+      <a href="resume_contact.html" class="w3-bar-item w3-button">Contact</a>
+</div>
+
+<header>
+	<img src="hannah_resume.png" alt="Header image">
+</header>	
+
+<section>
+	<aside>
+			<ul style="list-style-type:none;">
+			<h2>Profile</h2>
+			<li>Hannah Nyawan Anak Komik</li><br>
+			<li>26 years old</li><br>
+			<li>Finance Assistant</li><br>
+			<li>Kota Samarahan, Sarawak</li>
+	</aside>
+	<article>
+		<h1 id="C1">Objective</h1>
+			<p>To work as professional manager and supervisor by applying my organizatinal skills and ability to delegate responsibility towards acheiving company goals.<p>
+	</article>
+</section>
+<footer>
+	<p>© Copyright by Hannah Nyawan</p>
+	<p>This website are for the purpose of assignment on HTML only.</p>
+</footer>
+</body>
+</html>
